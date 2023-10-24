@@ -180,12 +180,10 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Award-winning development studio based in Denmark.
+          Indie Hacker House
           </h1>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a development studio working at the intersection of design
-            and technology. It’s a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
+          Indie Hacker 们聚集在一起开发，学习，交流，思想碰撞的地方。在这里你可以与志同道合的 Indie Hacker 面对面交流、协作，共同探索技术和创新的无限可能。
           </p>
         </FadeIn>
       </Container>
