@@ -1,11 +1,11 @@
 {
   "version": 1,
   "functions": {
-    "/about": {},
     "/blog": {},
     "/contact": {},
-    "/process": {},
     "/": {},
-    "/work": {}
+    "/process": {},
+    "/work": {},
+    "/about": {}
   }
 }
