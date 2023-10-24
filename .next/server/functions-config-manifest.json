@@ -5,7 +5,11 @@
     "/contact": {},
     "/": {},
     "/process": {},
+<<<<<<< Updated upstream
     "/work": {},
     "/about": {}
+=======
+    "/work": {}
+>>>>>>> Stashed changes
   }
 }

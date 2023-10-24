@@ -1,16 +1,33 @@
 {
+<<<<<<< Updated upstream
   "/_not-found": "/_not-found",
   "/page": "/",
   "/favicon.ico/route": "/favicon.ico",
   "/blog/page": "/blog",
+=======
+  "/favicon.ico/route": "/favicon.ico",
+  "/_not-found": "/_not-found",
+  "/page": "/",
+  "/about/page": "/about",
+  "/blog/page": "/blog",
+  "/contact/page": "/contact",
+>>>>>>> Stashed changes
   "/process/page": "/process",
   "/about/page": "/about",
   "/work/page": "/work",
   "/contact/page": "/contact",
   "/blog/a-short-guide-to-component-naming/page": "/blog/a-short-guide-to-component-naming",
+<<<<<<< Updated upstream
   "/blog/future-of-web-development/page": "/blog/future-of-web-development",
   "/blog/3-lessons-we-learned-going-back-to-the-office/page": "/blog/3-lessons-we-learned-going-back-to-the-office",
   "/work/unseal/page": "/work/unseal",
   "/work/phobia/page": "/work/phobia",
   "/work/family-fund/page": "/work/family-fund"
+=======
+  "/work/phobia/page": "/work/phobia",
+  "/blog/future-of-web-development/page": "/blog/future-of-web-development",
+  "/work/family-fund/page": "/work/family-fund",
+  "/blog/3-lessons-we-learned-going-back-to-the-office/page": "/blog/3-lessons-we-learned-going-back-to-the-office",
+  "/work/unseal/page": "/work/unseal"
+>>>>>>> Stashed changes
 }
