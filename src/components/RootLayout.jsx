@@ -71,8 +71,9 @@ function Header({
           />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="/contact" invert={invert}>
-            Contact us
+          {/* <Button href="/contact" invert={invert}> */}
+          <Button href="https://www.notion.so/indiehackerhouse/Indie-Hacker-House-dd350509871b4cbeb6246424f497df28?pvs=4" target="_blank">
+            Blog
           </Button>
           <button
             ref={toggleRef}
@@ -214,9 +215,9 @@ function RootLayoutInner({ children }) {
               <Container>
                 <div className="grid grid-cols-1 gap-y-10 pb-16 pt-10 sm:grid-cols-2 sm:pt-16">
                   <div>
-                    <h2 className="font-display text-base font-semibold text-white">
+                    {/* <h2 className="font-display text-base font-semibold text-white">
                       Our offices
-                    </h2>
+                    </h2> */}
                     <Offices
                       invert
                       className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2"
@@ -224,7 +225,7 @@ function RootLayoutInner({ children }) {
                   </div>
                   <div className="sm:border-l sm:border-transparent sm:pl-16">
                     <h2 className="font-display text-base font-semibold text-white">
-                      Follow us
+                      关注我们
                     </h2>
                     <SocialMedia className="mt-6" invert />
                   </div>

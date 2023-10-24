@@ -21,18 +21,18 @@ export function Offices({ invert = false, ...props }) {
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="Copenhagen" invert={invert}>
-          1 Carlsberg Gate
+        <Office name="Indie Hacker House 第一站" invert={invert}>
+        雪庐艺术公寓 
           <br />
-          1260, København, Denmark
+          云南省大理白族自治州大理市大理欣怡缶庐客栈西南100米(小邑庄线公路南)
         </Office>
       </li>
       <li>
-        <Office name="Billund" invert={invert}>
+        {/* <Office name="Billund" invert={invert}>
           24 Lego Allé
           <br />
           7190, Billund, Denmark
-        </Office>
+        </Office> */}
       </li>
     </ul>
   )
