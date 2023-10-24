@@ -8,27 +8,40 @@ import { List, ListItem } from '@/components/List'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { Testimonial } from '@/components/Testimonial'
-import logoBrightPath from '@/images/clients/bright-path/logo-light.svg'
-import logoFamilyFund from '@/images/clients/family-fund/logo-light.svg'
-import logoGreenLife from '@/images/clients/green-life/logo-light.svg'
-import logoHomeWork from '@/images/clients/home-work/logo-light.svg'
-import logoMailSmirk from '@/images/clients/mail-smirk/logo-light.svg'
-import logoNorthAdventures from '@/images/clients/north-adventures/logo-light.svg'
-import logoPhobiaDark from '@/images/clients/phobia/logo-dark.svg'
-import logoPhobiaLight from '@/images/clients/phobia/logo-light.svg'
-import logoUnseal from '@/images/clients/unseal/logo-light.svg'
+import logo07 from '@/images/logo/Logo-07.png'
+import logo02 from '@/images/logo/Logo-02.png'
+import logo06 from '@/images/logo/Logo-06.png'
+import logo05 from '@/images/logo/Logo-05.png'
+import logo04 from '@/images/logo/Logo-04.png'
+import logo08 from '@/images/logo/Logo-08.png'
+import logoPhobiaDark from '@/images/logo/Logo-00.svg'
+import logoPhobiaLight from '@/images/logo/Logo-01.png'
+import logo03 from '@/images/logo/Logo-03.png'
+import logo09 from '@/images/logo/Logo-09.png'
+import logo10 from '@/images/logo/Logo-10.png'
+import logo11 from '@/images/logo/Logo-11.png'
+import logo12 from '@/images/logo/Logo-12.png'
+import logo13 from '@/images/logo/Logo-13.png'
+import logo14 from '@/images/logo/Logo-14.png'
 import imageLaptop from '@/images/laptop.jpg'
 import { loadCaseStudies } from '@/lib/mdx'
 
 const clients = [
+  ['Logo03', logo03],
+  ['Logo02', logo02],
   ['Phobia', logoPhobiaLight],
-  ['Family Fund', logoFamilyFund],
-  ['Unseal', logoUnseal],
-  ['Mail Smirk', logoMailSmirk],
-  ['Home Work', logoHomeWork],
-  ['Green Life', logoGreenLife],
-  ['Bright Path', logoBrightPath],
-  ['North Adventures', logoNorthAdventures],
+  ['Logo04', logo04],
+  ['Logo05', logo05],
+  ['Logo06', logo06],
+  ['Logo07', logo07],
+  ['Logo08', logo08],
+  ['Logo10', logo10],
+  ['Logo09', logo09],
+  ['Logo11', logo11],
+  ['Logo12', logo12],
+  ['Logo13', logo13],
+  ['Logo14', logo14],
+  
 ]
 
 function Clients() {
@@ -37,7 +50,7 @@ function Clients() {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-sm font-semibold tracking-wider text-white sm:text-left">
-            We’ve worked with hundreds of amazing people
+            社区支持 - Community Support
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>
@@ -64,53 +77,40 @@ function CaseStudies({ caseStudies }) {
   return (
     <>
       <SectionIntro
-        title="Harnessing technology for a brighter future"
+        title="在 Indie Hacker House, 你能得到什么"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We believe technology is the answer to the world’s greatest
-          challenges. It’s also the cause, so we find ourselves in bit of a
-          catch 22 situation.
+        追寻自由，寻找志同道合的伙伴。如果你厌倦了日复一日无止境的职场内卷，想要寻找人生新的可能性，Indie Hacker House就是你要寻找的地方。
         </p>
       </SectionIntro>
       <Container className="mt-16">
-        <FadeInStagger className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-          {caseStudies.map((caseStudy) => (
-            <FadeIn key={caseStudy.href} className="flex">
-              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8">
-                <h3>
-                  <Link href={caseStudy.href}>
-                    <span className="absolute inset-0 rounded-3xl" />
-                    <Image
-                      src={caseStudy.logo}
-                      alt={caseStudy.client}
-                      className="h-16 w-16"
-                      unoptimized
-                    />
-                  </Link>
-                </h3>
-                <p className="mt-6 flex gap-x-2 text-sm text-neutral-950">
-                  <time
-                    dateTime={caseStudy.date.split('-')[0]}
-                    className="font-semibold"
-                  >
-                    {caseStudy.date.split('-')[0]}
-                  </time>
-                  <span className="text-neutral-300" aria-hidden="true">
-                    /
-                  </span>
-                  <span>Case study</span>
-                </p>
-                <p className="mt-6 font-display text-2xl font-semibold text-neutral-950">
-                  {caseStudy.title}
-                </p>
-                <p className="mt-4 text-base text-neutral-600">
-                  {caseStudy.description}
-                </p>
-              </article>
-            </FadeIn>
-          ))}
-        </FadeInStagger>
+      <dl class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          <div>
+            <dt class="font-semibold text-gray-900">灵感碰撞</dt>
+            <dd class="mt-1 text-gray-600">我们坚信1+1大于2，思想的交流和碰撞会给Indie Hacker产生更多的价值</dd>
+          </div>
+          <div>
+            <dt class="font-semibold text-gray-900">社区孵化</dt>
+            <dd class="mt-1 text-gray-600">我们相信，社区的职责是帮助社区成员在商业上获得回报，同时这些回报也能支持社区走得更远</dd>
+          </div>
+          <div>
+            <dt class="font-semibold text-gray-900">更多的工作机会</dt>
+            <dd class="mt-1 text-gray-600">你的下一份工作，不一定要上班。开启Indie Hacker生涯，探索未知领域</dd>
+          </div>
+          <div>
+            <dt class="font-semibold text-gray-900">各领域经验分享</dt>
+            <dd class="mt-1 text-gray-600">好玩的精彩的Indie Hacker故事和技术分享</dd>
+          </div>
+          <div>
+            <dt class="font-semibold text-gray-900">找到组队的小伙伴</dt>
+            <dd class="mt-1 text-gray-600">Indie Hacker不意味着事必躬亲，相互支持可以帮助你走更远</dd>
+          </div>
+          <div>
+            <dt class="font-semibold text-gray-900">共居体验</dt>
+            <dd class="mt-1 text-gray-600">离开了工位后不适应一个人孤单的生活节奏？来Indie Hacker House参与共居和办公(co-living & co-working)</dd>
+          </div>
+        </dl>
       </Container>
     </>
   )
@@ -120,13 +120,12 @@ function Services() {
   return (
     <>
       <SectionIntro
-        eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        eyebrow="Co-living & co-working"
+        title="线下共居空间"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+        我们把Indie Hacker House的第一个站点设立在了大理，一个风景优美、社区氛围浓厚、Indie Hacker/数字游民浓度极高的地方
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -141,24 +140,17 @@ function Services() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="共居体验">
+            在工作的一天后，你可以在洱海边的草坪尽享飞盘的乐趣，或在人民路的夜市中品尝鲜美的当地美食，或是去酒吧里听jazz放松，还有网球、舞会、高尔夫等各种活动
             </ListItem>
-            <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+            <ListItem title="沙龙/分享/共学/workshop">
+            你可以在这里分享你的产品、创意或构想，同时也能倾听他人的灵感和故事。在这里，我们尊重和理解每一个创意的价值，我们相信，ideas worth separating
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="参与共建">
+            你的创意不会受到任何束缚，无论是定期的可以是weekly roundup，还是offsite活动，还是某一技术的深度研讨，你都可以在这里实现
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="激发创造力">
+            你的创意不会受到任何束缚，无论是定期的可以是weekly roundup，还是offsite活动，还是某一技术的深度研讨，你都可以在这里实现。
             </ListItem>
           </List>
         </div>
@@ -196,9 +188,7 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Phobia', logo: logoPhobiaDark }}
       >
-        The team at Studio went above and beyond with our onboarding, even
-        finding a way to access the user’s microphone without triggering one of
-        those annoying permission dialogs.
+        我们希望通过线下社区打破 Indie Hacker 单打独斗的状态，促进协作和链接。
       </Testimonial>
 
       <Services />

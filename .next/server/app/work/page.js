@@ -321,7 +321,7 @@ const tree = {
         'work',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3772)), "/Users/viggozhang/Documents/Indie Hacker House/Github/Indie-Hacker-House.github.io/src/app/work/page.jsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 32670)), "/Users/viggozhang/Documents/Indie Hacker House/Github/Indie-Hacker-House.github.io/src/app/work/page.jsx"],
           
         }]
       },
@@ -382,16 +382,16 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 4884:
+/***/ 31127:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 23427, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 42035, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 24563));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97203));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 63259));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 82057));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 42026));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 63259));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 24563));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97203));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 89898));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 22637));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3767));
@@ -399,9 +399,9 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 21908));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 21517));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 75975));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 87753));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 99830));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14280));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 87753));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 27591));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 69695));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 31980));
@@ -414,17 +414,17 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 77014));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 36753));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 86793));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 66613));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 77089));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 32188));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 43340));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 66613));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 89269));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 16135));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 12276));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 51340));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 50622));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 10215));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 12276));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2560));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 10215));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 18750));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 93604));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84240));
@@ -441,7 +441,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2998,9075,9150,1149,7448,4146,6654,4350,6404,1240,7005,5789], () => (__webpack_exec__(12091)));
+var __webpack_exports__ = __webpack_require__.X(0, [2998,9075,9150,1149,7448,4146,6654,4350,6404,1240,1785,3281], () => (__webpack_exec__(12091)));
 module.exports = __webpack_exports__;
 
 })();

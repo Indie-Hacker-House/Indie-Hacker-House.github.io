@@ -76,7 +76,7 @@ var wrapper = __webpack_require__(37367);
 
 const caseStudy = {
     client: "Unseal",
-    title: "Get a hodl of your health",
+    title: "Get a hodl of your health1",
     description: "Unseal is the first NFT platform where users can mint and trade NFTs of their own personal health records, allowing them to take control of their data.",
     summary: [
         "Unseal is the first NFT platform where users can mint and trade NFTs of their own personal health records, allowing them to take control of their data.",

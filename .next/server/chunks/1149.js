@@ -6737,7 +6737,7 @@ var es_value = __webpack_require__(96500);
 // EXTERNAL MODULE: ./node_modules/.store/framer-motion@10.16.4/node_modules/framer-motion/dist/es/context/MotionConfigContext.mjs
 var MotionConfigContext = __webpack_require__(95622);
 // EXTERNAL MODULE: ./node_modules/.store/framer-motion@10.16.4/node_modules/framer-motion/dist/es/utils/use-constant.mjs
-var use_constant = __webpack_require__(10408);
+var use_constant = __webpack_require__(70903);
 ;// CONCATENATED MODULE: ./node_modules/.store/framer-motion@10.16.4/node_modules/framer-motion/dist/es/value/use-motion-value.mjs
 
 
@@ -6895,7 +6895,7 @@ __webpack_require__.d(__webpack_exports__, {
 // EXTERNAL MODULE: ./node_modules/.store/framer-motion@10.16.4/node_modules/framer-motion/dist/es/value/index.mjs
 var value = __webpack_require__(96500);
 // EXTERNAL MODULE: ./node_modules/.store/framer-motion@10.16.4/node_modules/framer-motion/dist/es/utils/use-constant.mjs
-var use_constant = __webpack_require__(10408);
+var use_constant = __webpack_require__(70903);
 // EXTERNAL MODULE: external "next/dist/compiled/react"
 var react_ = __webpack_require__(18038);
 // EXTERNAL MODULE: ./node_modules/.store/framer-motion@10.16.4/node_modules/framer-motion/dist/es/utils/errors.mjs
@@ -7530,7 +7530,7 @@ function transform(...args) {
 // EXTERNAL MODULE: ./node_modules/.store/framer-motion@10.16.4/node_modules/framer-motion/dist/es/value/use-combine-values.mjs + 1 modules
 var use_combine_values = __webpack_require__(99402);
 // EXTERNAL MODULE: ./node_modules/.store/framer-motion@10.16.4/node_modules/framer-motion/dist/es/utils/use-constant.mjs
-var use_constant = __webpack_require__(10408);
+var use_constant = __webpack_require__(70903);
 // EXTERNAL MODULE: ./node_modules/.store/framer-motion@10.16.4/node_modules/framer-motion/dist/es/value/index.mjs
 var es_value = __webpack_require__(96500);
 ;// CONCATENATED MODULE: ./node_modules/.store/framer-motion@10.16.4/node_modules/framer-motion/dist/es/value/use-computed.mjs
