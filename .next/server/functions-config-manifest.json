@@ -1,15 +1,11 @@
 {
   "version": 1,
   "functions": {
+    "/about": {},
     "/blog": {},
     "/contact": {},
     "/": {},
     "/process": {},
-<<<<<<< Updated upstream
-    "/work": {},
-    "/about": {}
-=======
     "/work": {}
->>>>>>> Stashed changes
   }
 }

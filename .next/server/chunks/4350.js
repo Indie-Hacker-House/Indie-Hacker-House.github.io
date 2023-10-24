@@ -101,7 +101,7 @@ function Offices({ invert = false, ...props }) {
                     children: [
                         "雪庐艺术公寓",
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                        "云南省大理白族自治州大理市大理欣怡缶庐客栈西南100米(小邑庄线公路南)"
+                        "云南省大理白族自治州 大理市 大理欣怡缶庐客栈西南100米(小邑庄线公路南)"
                     ]
                 })
             }),
