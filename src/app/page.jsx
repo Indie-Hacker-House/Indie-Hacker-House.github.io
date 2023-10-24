@@ -161,7 +161,7 @@ function Services() {
 
 export const metadata = {
   description:
-    'We are a development studio working at the intersection of design and technology.',
+    'Indie Hacker 们聚集在一起开发，学习，交流，思想碰撞的地方。在这里你可以与志同道合的 Indie Hacker 面对面交流、协作，共同探索技术和创新的无限可能。',
 }
 
 export default async function Home() {
