@@ -3,9 +3,9 @@
   "functions": {
     "/about": {},
     "/blog": {},
-    "/": {},
-    "/process": {},
     "/contact": {},
+    "/process": {},
+    "/": {},
     "/work": {}
   }
 }
