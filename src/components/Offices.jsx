@@ -22,7 +22,7 @@ export function Offices({ invert = false, ...props }) {
     <ul role="list" {...props}>
       <li>
         <Office name="Indie Hacker House 第一站" invert={invert}>
-        雪庐艺术公寓 
+        雪庐艺术公寓
           <br />
           云南省大理白族自治州大理市大理欣怡缶庐客栈西南100米(小邑庄线公路南)
         </Office>
