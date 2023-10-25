@@ -2,10 +2,10 @@
   "version": 1,
   "functions": {
     "/about": {},
-    "/blog": {},
     "/contact": {},
     "/": {},
     "/process": {},
+    "/blog": {},
     "/work": {}
   }
 }
