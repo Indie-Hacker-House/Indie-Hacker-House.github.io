@@ -63,6 +63,7 @@ export const socialMediaProfiles = [
   { title: 'Twitter', href: 'https://twitter.com', icon: TwitterIcon },
   { title: 'GitHub', href: 'https://github.com', icon: GitHubIcon },
   { title: 'Dribbble', href: 'https://dribbble.com', icon: DribbbleIcon },
+  { title: 'Wechat', href: 'https://dribbble.com', icon: DribbbleIcon },
 ]
 
 export function SocialMedia({ className, invert = false }) {
