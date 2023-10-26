@@ -130,7 +130,6 @@ function Navigation() {
       <NavigationRow>
         {/* <NavigationItem href="/work">Our Work</NavigationItem> */}
         <NavigationItem href="https://www.notion.so/indiehackerhouse/Indie-Hacker-House-dd350509871b4cbeb6246424f497df28?pvs=4" target="_blank">Blog</NavigationItem>
-        <NavigationItem href="/about">About Us</NavigationItem>
       </NavigationRow>
       {/* <NavigationRow>
         <NavigationItem href="/process">Our Process</NavigationItem>
